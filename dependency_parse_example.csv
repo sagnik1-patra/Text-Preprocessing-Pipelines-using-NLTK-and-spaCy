@@ -1,0 +1,10 @@
+Token,POS,Dependency,Head
+you,PRON,nsubj,are
+are,AUX,ROOT,are
+my,PRON,poss,frontrunner
+early,ADJ,amod,frontrunner
+frontrunner,NOUN,attr,are
+for,ADP,prep,frontrunner
+best,ADJ,amod,airline
+airline,NOUN,compound,oscars2016
+oscars2016,PROPN,pobj,for

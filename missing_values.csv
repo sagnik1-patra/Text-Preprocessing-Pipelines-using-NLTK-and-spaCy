@@ -1,0 +1,16 @@
+Column,Missing_Count,Missing_Percentage
+tweet_id,0,0.0
+airline_sentiment,0,0.0
+airline_sentiment_confidence,0,0.0
+negativereason,3686,36.86
+negativereason_confidence,2776,27.76
+airline,0,0.0
+airline_sentiment_gold,9974,99.74
+name,0,0.0
+negativereason_gold,9981,99.81
+retweet_count,0,0.0
+text,0,0.0
+tweet_coord,9300,93.0
+tweet_created,0,0.0
+tweet_location,3246,32.46
+user_timezone,3279,32.79
