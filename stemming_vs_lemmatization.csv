@@ -1,0 +1,14 @@
+Word,POS,Porter,Snowball,Lemma
+running,VBG,run,run,run
+runs,NNS,run,run,run
+ran,NN,ran,ran,ran
+better,RBR,better,better,well
+good,JJ,good,good,good
+best,JJS,best,best,best
+studies,NNS,studi,studi,study
+studying,VBG,studi,studi,study
+studied,VBN,studi,studi,study
+flies,NNS,fli,fli,fly
+flying,VBG,fli,fli,fly
+happier,NN,happier,happier,happier
+happiness,NN,happi,happi,happiness

@@ -1,0 +1,10 @@
+nltk
+spacy
+pandas
+numpy
+matplotlib
+seaborn
+emoji
+contractions
+wordcloud
+matplotlib-venn

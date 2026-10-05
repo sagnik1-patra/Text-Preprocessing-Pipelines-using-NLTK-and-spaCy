@@ -1,0 +1,73 @@
+NLTK VS spaCy BENCHMARKING REPORT
+================================================================================
+
+1. METHODOLOGY
+
+A maximum of 10,000 Twitter US Airline Sentiment tweets were used.
+
+The same cleaning strategy was applied before NLTK and spaCy linguistic processing.
+
+2. TEXT CLEANING
+
+The cleaning stage removes URLs, mentions, numbers, punctuation and extra whitespace while processing hashtags, emojis, contractions and repeated characters.
+
+Negation terms including not, no, nor and never are preserved.
+
+3. NLTK PIPELINE
+
+NLTK uses word tokenization, custom stopword removal, Porter stemming, Snowball stemming, WordNet lemmatization and POS tagging.
+
+4. spaCy PIPELINE
+
+spaCy uses its integrated tokenizer, lemmatizer, POS tagger, dependency parser and Named Entity Recognition pipeline.
+
+A custom EntityRuler adds airline-specific entities.
+
+5. PERFORMANCE
+
+Largest benchmark: 10000 tweets
+
+NLTK time: 89.684 seconds
+spaCy time: 66.838 seconds
+
+Faster pipeline on this run: spaCy
+
+Performance depends on CPU, RAM, package versions and runtime conditions.
+
+6. VOCABULARY
+
+Original vocabulary: 9714
+NLTK vocabulary: 7611
+spaCy vocabulary: 7354
+
+Preprocessing reduces vocabulary by removing noise and normalizing word forms.
+
+7. LEMMATIZATION
+
+NLTK WordNet lemmatization uses POS information in this implementation.
+
+spaCy performs lemmatization as part of its integrated linguistic pipeline.
+
+8. NER
+
+spaCy provides built-in NER. Social-media NER remains challenging because tweets frequently contain slang, abbreviations, spelling errors, usernames and inconsistent capitalization.
+
+9. STEMMING VS LEMMATIZATION
+
+Stemming is useful when aggressive vocabulary reduction is acceptable. Lemmatization is generally preferable when linguistically meaningful base forms are required.
+
+10. NLTK USE CASES
+
+NLTK is particularly useful for teaching, research, algorithm experimentation and highly customized preprocessing.
+
+11. spaCy USE CASES
+
+spaCy is particularly useful for integrated POS tagging, lemmatization, NER, dependency parsing, batch processing and production NLP.
+
+12. HYBRID APPROACH
+
+A hybrid approach can combine NLTK lexical resources and custom preprocessing with spaCy linguistic analysis.
+
+13. CONCLUSION
+
+Neither library is universally better. NLTK provides fine-grained algorithmic control, while spaCy provides a more integrated production-oriented NLP pipeline.

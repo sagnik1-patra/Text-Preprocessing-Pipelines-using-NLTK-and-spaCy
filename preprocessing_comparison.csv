@@ -1,0 +1,10 @@
+Metric,NLTK,spaCy
+Processing time,89.684,66.838
+Average tokens/tweet,8.97,7.98
+Unique vocabulary,7611,7354
+Peak memory,0.07,43.79
+Lemmatization,WordNet + POS,Model lemmatizer
+POS,Perceptron,Integrated
+NER,Limited in this pipeline,Built-in
+Dependency Parsing,Not integrated,Built-in
+Recommended Use,Education / custom NLP,Production / integrated NLP
